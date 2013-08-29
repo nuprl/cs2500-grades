@@ -1,10 +1,10 @@
-f13-cs2500-client
+2500-f13-client
 ==========
 
 Handin client package Fall 2013 CS2500. 
 
 Install instructions:
-```raco pkg install github://github.com/bluephoenix47/f13-cs2500-client/master```
+```raco pkg install github://github.com/bluephoenix47/2500-f13-client/master```
 
 Update instructions:
-```raco pkg update f13-cs2500-client```
+```raco pkg update 2500-f13-client```
