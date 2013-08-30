@@ -15,14 +15,14 @@
 ;; Modify the provided "icon.png" file to your school/lab/etc logo.
 
 ;; You must define a server:port for the client to be functional
-(define server:port "cs2500-fall-2013.ccs.neu.edu:7979")
+(define server:port "cs2500-fall-2013.ccs.neu.edu:7980")
 
 ;; The following are optional. Uncomment and fill in
 ;; the values to add a menu item under "Help" to open
 ;; the specified web page (using the user's chosen web
 ;; browser.)
 (define web-menu-name "Course Homepage")
-(define web-address "http://www.ccs.neu.edu/home/matthias/2500-f13/handin.html")
+(define web-address "http://www.ccs.neu.edu/course/cs2500f13/")
 
 ;; Auto-updater section (see handin-server/doc.txt for details)
 ;(define enable-auto-update #t) ; enable auto-update?
