@@ -22,7 +22,7 @@
 ;; the specified web page (using the user's chosen web
 ;; browser.)
 (define web-menu-name "Course Homepage")
-(define web-address "http://www.ccs.neu.edu/home/matthias/2500-f13/handin.html")
+(define web-address "http://www.ccs.neu.edu/course/cs2500f13")
 
 ;; Auto-updater section (see handin-server/doc.txt for details)
 ;(define enable-auto-update #t) ; enable auto-update?
