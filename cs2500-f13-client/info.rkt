@@ -5,7 +5,7 @@
 ;; Also replace the "server-cert.pem" files.
 
 ;; Your course name (used for menus, button label, collection name etc)
-(define name "CS2500 -- Fundies I")
+(define name "CS 2500")
 
 ;; The handin tool is disabled by default, uncomment these three lines to
 ;; enable it
