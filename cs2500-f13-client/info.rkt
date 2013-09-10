@@ -5,7 +5,7 @@
 ;; Also replace the "server-cert.pem" files.
 
 ;; Your course name (used for menus, button label, collection name etc)
-(define name "CS 2500")
+(define name "Grade")
 
 ;; The handin tool is disabled by default, uncomment these three lines to
 ;; enable it
@@ -15,7 +15,7 @@
 ;; Modify the provided "icon.png" file to your school/lab/etc logo.
 
 ;; You must define a server:port for the client to be functional
-(define server:port "cs2500-fall-2013.ccs.neu.edu:7979")
+(define server:port "cs2500-fall-2013.ccs.neu.edu:9001")
 
 ;; The following are optional. Uncomment and fill in
 ;; the values to add a menu item under "Help" to open
@@ -31,9 +31,9 @@
 
 ;; Multi-file submission section (see handin-server/doc.txt for details)
 ;(define enable-multifile-handin #t) ; enable multi-file?
-;(define selection-mode 'extended) ; mode for file choose, usually 'extended
+(define selection-mode 'extended) ; mode for file choose, usually 'extended
 (define selection-default ; suffixes to auto-choose (string or string-list)
-  '("*.rkt" "*.rkt;*.txt"))
+  '("*.tar.gz"))
 
 ;; Client configuration
 ;(define password-keep-minutes 5) ; client remembers entered password 5 mins
