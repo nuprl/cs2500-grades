@@ -30,10 +30,10 @@
 ;(define package-filename "handin.plt")
 
 ;; Multi-file submission section (see handin-server/doc.txt for details)
-;(define enable-multifile-handin #t) ; enable multi-file?
+(define enable-multifile-handin #t) ; enable multi-file?
 (define selection-mode 'extended) ; mode for file choose, usually 'extended
 (define selection-default ; suffixes to auto-choose (string or string-list)
-  '("*.tar.gz"))
+  '("*hw*.zip" "grades.rkt"))
 
 ;; Client configuration
 ;(define password-keep-minutes 5) ; client remembers entered password 5 mins
