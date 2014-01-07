@@ -782,10 +782,10 @@
                  [callback (lambda (item evt) (send-url web-address))]))
           (super help-menu:after-about menu))
 
-        (define client-panel
+        #;(define client-panel
           (new panel:vertical-discrete-sizes% (parent (get-button-panel))))
 
-        (define client-button
+        #;(define client-button
           (new switchable-button%
                [label button-label/h]
                [bitmap handin-icon]
@@ -805,8 +805,8 @@
                              (send (drracket:unit:open-drscheme-window)
                                    get-editor)))])))]))
 
-        (inherit register-toolbar-button)
-        (register-toolbar-button client-button #:number -1000)
+        #;(inherit register-toolbar-button)
+        #;(register-toolbar-button client-button #:number -1000)
 
         (send (get-button-panel) change-children
               (lambda (l) (cons client-panel (remq client-panel l))))))
