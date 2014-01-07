@@ -808,7 +808,7 @@
         #;(inherit register-toolbar-button)
         #;(register-toolbar-button client-button #:number -1000)
 
-        (send (get-button-panel) change-children
+        #;(send (get-button-panel) change-children
               (lambda (l) (cons client-panel (remq client-panel l))))))
 
     (when (and server port-no)
