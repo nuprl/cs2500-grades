@@ -1,6 +1,9 @@
 #!/bin/sh
+mkdir cs2500-grades
+cp *.rkt server-cert.pem icon.png cs2500-grades
 raco link cs2500-grades
 raco pack --collect --at-plt ++setup cs2500-grades cs2500-grades.plt cs2500-grades
 raco link -r cs2500-grades
+rm -rf cs2500-grades
 # Modify the below line to automagically distribute the PLT file
 # rsync -avz cs2500-grades.plt wilbowma@login.ccs.neu.edu:/course/cs2500sp14/.www/cs2500-grades.plt
