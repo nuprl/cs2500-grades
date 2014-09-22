@@ -706,7 +706,9 @@
       (send bm2 set-loaded-mask mbm2))
     bm2))
 
-(define handin-icon (scale-by-half (in-this-collection "icon.png")))
+(define handin-icon
+  (scale-by-half (car (#%info-lookup 'drracket-tool-icons
+                       (lambda () '("icon.png"))))))
 
 (define (editors->string editors)
   (let* ([base (make-object editor-stream-out-bytes-base%)]
