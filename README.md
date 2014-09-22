@@ -1,4 +1,4 @@
-cs2500-client
+cs2500-grades
 ==========
 
 Grades handin client package for CS2500 grading server.
@@ -7,9 +7,9 @@ The server-cert.pem needs to be installed in cs2500-grades, then the package can
 
 # Install instructions
 Install instructions:
-```raco pkg install github://github.com/bluephoenix47/cs2500-client/grades-f14```
+```raco pkg install github://github.com/bluephoenix47/cs2500-grades/f14```
 
-Make sure not to use the master branch, as it doesn't contain the server's certificate. Instead, use the semester specific branch, such as `grades-f14` for fall 2014, or `grades-sp15` for spring 2015.
+Make sure not to use the master branch, as it doesn't contain the server's certificate. Instead, use the semester specific branch, such as `f14` for fall 2014, or `sp15` for spring 2015.
 
 Update instructions:
 ```raco pkg update cs2500-grades```
